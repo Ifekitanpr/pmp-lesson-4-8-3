@@ -1,5 +1,5 @@
 import React,{useState}from'react';import{createRoot}from'react-dom/client';import{createPortal}from'react-dom';import{ArrowLeft,ArrowRight,Check,ChevronDown,Menu,Target,Volume2,VolumeX,X}from'lucide-react';import'./styles.css';
-const A='/assets/';
+const A='./assets/';
 const tabs=['The evidence','The enabler','Three layers','Named duty','Exam lens'];
 const layers=[
 ['International Standards','06-international-standard.png','The ISO family and its peers — generic, certifiable management-system frameworks. ISO 9001 for quality management systems. ISO/IEC 27001 for information security. ISO 25010 for software product quality characteristics. Broad frameworks applicable across many industries, with formal certification available.'],
